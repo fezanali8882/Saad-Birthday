@@ -7,7 +7,7 @@ margin:0;
 }
 
 .screen{
-display:flex;
+display:none;
 justify-content:center;
 align-items:center;
 flex-direction:column;
@@ -16,6 +16,10 @@ position:absolute;
 top:0;
 left:0;
 width:100%;
+}
+
+.active{
+display:flex;
 }
 
 .active{
