@@ -8,11 +8,17 @@ margin:0;
 
 .screen{
 display:flex;
-justify-content:flex-start;
+justify-content:center;
 align-items:center;
 flex-direction:column;
 height:100vh;
-padding-top:120px;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+
+/* یہ نئی لائن */
+transform:translateY(-80px);
 }
 
 .active{
