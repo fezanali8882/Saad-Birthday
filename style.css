@@ -26,6 +26,10 @@ display:flex;
 display:flex;
 }
 
+.active{
+display:flex;
+}
+
 .main-title{
 font-size:72px;
 color:#FFD700;
